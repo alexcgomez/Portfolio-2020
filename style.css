@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#div-background{
+    background-blend-mode: multiply;
+    background: url(/assets/img/codificacion.svg);
+    background-color: #30343A;
+    background-size: 25px;
+    display: block;
+    /* filter: blur(1px);
+    -webkit-filter: blur(2px); */
+    height: 100%;
+    left: 0;
+    border: 0px;
+    margin: 0px;
+    padding: 0%;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+}
+
+#div-content{
+    background: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    display: flex;
+}
+
+.navbar-menu{
+    margin-left: auto;
+}
+
+.navbar-menu ul li{
+    display: inline-block;
+    background: red;
+    margin: 10px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
