@@ -1,6 +1,6 @@
 /* MAIN STRUCTURE */
 :root {
-  --mainColor: #ff9800;
+  --mainColor: #ff7f00;
 }
 * {
   margin: 0px;
@@ -110,6 +110,7 @@ h1 {
   font-family: Spartan;
   color: var(--mainColor);
   font-size: 90px;
+  text-shadow: 0 0 25px black;
 }
 
 /* SECTION 1 : Hello World */
@@ -148,6 +149,8 @@ h1 {
 
 #text-section1 h1 {
   font-size: 50px;
+  color: var(--mainColor);
+  text-shadow: 0 0 black;
 }
 /* SECTION 2: Skills */
 
@@ -156,32 +159,31 @@ h1 {
   justify-content: flex-end;
   padding: 2rem;
   /* filter: opacity(20%); */
-  background: var(--mainColor);
- 
+  /* background: var(--mainColor); */
 }
-#div-skills{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#div-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #skills h1 {
   margin: 2rem;
   text-align: center;
   font-size: 70px;
-  color: black;
+  color: var(--mainColor);
+  text-shadow: 0 0 black;
 }
 
 #skills ul {
   width: 65%;
-    
+
   position: relative;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 #skills ul li {
   list-style: none;
@@ -194,15 +196,13 @@ h1 {
   width: 160px;
   height: 160px;
   text-align: center;
-  vertical-align: middle;
   /* line-height: 63px; */
-  background: #333;
+  /* background: #333; */
   border-radius: 50%;
   font-size: 100px;
   color: var(--mainColor);
   transition: 0.5s;
 }
-
 
 #skills ul li a::before {
   content: "";
@@ -220,18 +220,95 @@ h1 {
   transform: scale(1.1);
   box-shadow: 0 0 25px white;
 }
-#div-css{
-    display: none;
+#div-css {
+  display: none;
 }
 
-#skills ul li a:hover {
-  color: var(--mainColor);
+#skills ul li #fa-html5:hover {
+  color: black;
+  background-size: 10px 90%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-css3:hover {
+  color: black;
+  background-size: 10px 90%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-js:hover {
+  color: black;
+  background-size: 10px 30%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-database:hover {
+  color: black;
+  background-size: 10px 20%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-linux:hover {
+  color: black;
+  background-size: 10px 40%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-react:hover {
+  color: black;
+  background-size: 10px 0%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-git:hover {
+  color: black;
+  background-size: 10px 70%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-wp:hover {
+  color: black;
+  background-size: 10px 80%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-java:hover {
+  color: black;
+  background-size: 10px 95%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-docker:hover {
+  color: black;
+  background-size: 10px 10%;
+  box-shadow: 0 0 60px white;
+  text-shadow: 0 0 5px white;
+}
+
+#skills ul li #fa-node:hover {
+  color: black;
+  background-size: 10px 20%;
   box-shadow: 0 0 60px white;
   text-shadow: 0 0 5px white;
 }
 
 /* SECTION 3 : Work */
 /* SECTION 4 : Contact */
+
+#contact{
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
 
 /* FOOTER */
 
