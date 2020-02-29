@@ -182,6 +182,7 @@ h1 {
   justify-content: center;
 }
 
+
 #skills ul li {
   list-style: none;
   padding: 10px;
@@ -202,6 +203,7 @@ h1 {
   transition: 0.5s;
 }
 
+
 #skills ul li a::before {
   content: "";
 
@@ -217,6 +219,9 @@ h1 {
 #skills ul li a:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 25px white;
+}
+#div-css{
+    display: none;
 }
 
 #skills ul li a:hover {
