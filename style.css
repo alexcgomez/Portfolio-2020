@@ -68,15 +68,16 @@ li a {
   );
   background-position: 0 100%;
   background-repeat: repeat-x;
-  background-size: 10px 3px;
+  background-size: 10px 0px;
   color: var(--mainColor);
   padding: 10px;
   text-decoration: none;
   transition: background-size 0.2s;
+  font-size: xx-large;
 }
 
 a:hover {
-  background-size: 4px 50px;
+  background-size: 10px 50px;
   color: black;
 }
 
@@ -85,19 +86,33 @@ a:hover {
 #div-header{
     width: 100%;
     /* background: grey; */
-    height: 500px;
+    /* height: 500px; */
     text-align: center;
     padding: 50px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #div-header img{
-    border-radius: 50px;
+    border-radius: 50%;
+    width: 15%;
+    /* background: blue; */
 
 }
 
-#div-header h1{
+#header-text{
     font-size: 40px;
+    padding: 30px ;
+    margin: 2rem;
+    /* background: red; */
+}
+
+#header-text h1{
+    font-family: Spartan;
+   color: var(--mainColor);
+   font-size: 90px;
 }
 
 /* FOOTER */
