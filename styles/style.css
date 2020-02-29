@@ -15,7 +15,7 @@ body {
 
 #div-background {
   background-blend-mode: multiply;
-  background: url(assets/img/codificacion.svg);
+  background: url(../assets/img/codificacion.svg);
   background-color: #30343a;
   background-size: 25px;
   display: block;
@@ -177,7 +177,7 @@ h1 {
 
 #skills ul {
   width: 65%;
-
+  margin-top: 20px;
   position: relative;
   padding: 0;
   display: flex;
