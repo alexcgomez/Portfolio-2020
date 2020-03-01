@@ -304,16 +304,82 @@ h1 {
 /* SECTION 3 : Work */
 /* SECTION 4 : Contact */
 
-#contact{
+
+#contact {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
   padding: 2rem;
+  /* margin: 10px; */
+  background: #1e1e1e;
+  text-align: center;
+}
+#contact-h1 {
+
+  text-align: center;
+  padding: 2rem;
+  font-size: 70px;
+  color: var(--mainColor);
+  text-shadow: 0 0 black;
+  /* margin: 10px; */
+  background: #1e1e1e;
+  text-align: center;
+}
+#social{
+  font-size: 30px;
+  flex-grow: 0.5;
+  /* margin-right: auto; */
+  /* padding-left: 50px; */
+  /* background: red; */
+}
+
+#social img{
+width: 70px;
+padding: 10px;
+margin-top: 6rem;
+margin-bottom: 4rem;
+}
+#text-form{
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+#contact-form{
+  /* padding-right: 150px; */
+  /* background: blue; */
+  flex-grow: 0.5;
+
+}
+
+#contact form input {
+  border-radius: 5px;
+  width: 500px;
+  text-align: center;
+  background: transparent;
+  color: var(--mainColor);
+  font-size: 15px;
+  margin: 10px;
+  border-color: var(--mainColor);
+
+  font-family: Roboto Slab;
+}
+#contact form textarea {
+  border-radius: 5px;
+  width: 500px;
+  height: 100px;
+  resize: none;
+  font-size: 15px;
+  margin: 10px;
+
+  background: transparent;
+  color: var(--mainColor);
+  border-color: var(--mainColor);
+  font-family: Roboto Slab;
 }
 
 /* FOOTER */
 
 footer {
-  background: #1e1e1e;
+  background: #161616;
   /* position: fixed; */
   bottom: 0px;
   left: 0px;
