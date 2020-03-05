@@ -31,6 +31,10 @@ body {
   z-index: -1;
 }
 
+#div-content {
+  transition: 1s;
+}
+
 /* TOP MENU */
 #logo img {
   width: 200px;
@@ -53,10 +57,11 @@ nav {
 .navbar-menu ul li {
   display: inline-block;
   margin: 0%;
-  padding: 0px;
+  padding: 1rem;
 }
 
 li a {
+  border-radius: 10px;
   text-decoration: none;
   background: linear-gradient(
     to bottom,
@@ -74,7 +79,8 @@ li a {
 }
 
 a:hover {
-  background-size: 10px 50px;
+  background-size: 10px 80px;
+  border-radius: 10px;
   color: black;
 }
 
@@ -304,7 +310,6 @@ h1 {
 /* SECTION 3 : Work */
 /* SECTION 4 : Contact */
 
-
 #contact {
   display: flex;
   justify-content: space-between;
@@ -315,7 +320,6 @@ h1 {
   text-align: center;
 }
 #contact-h1 {
-
   text-align: center;
   padding: 2rem;
   font-size: 70px;
@@ -325,7 +329,7 @@ h1 {
   background: #1e1e1e;
   text-align: center;
 }
-#social{
+#social {
   font-size: 30px;
   flex-grow: 0.5;
   /* margin-right: auto; */
@@ -333,21 +337,20 @@ h1 {
   /* background: red; */
 }
 
-#social img{
-width: 70px;
-padding: 10px;
-margin-top: 6rem;
-margin-bottom: 4rem;
+#social img {
+  width: 70px;
+  padding: 10px;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
 }
-#text-form{
+#text-form {
   font-size: 30px;
   margin-bottom: 2rem;
 }
-#contact-form{
+#contact-form {
   /* padding-right: 150px; */
   /* background: blue; */
   flex-grow: 0.5;
-
 }
 
 #contact form input {
@@ -376,13 +379,13 @@ margin-bottom: 4rem;
   font-family: Roboto Slab;
 }
 
-#contact#contact button{
+#contact#contact button {
   border-radius: 4px;
   background-color: var(--mainColor);
   border: none;
   color: black;
   text-align: center;
-  font-family: Roboto Slab;;
+  font-family: Roboto Slab;
   font-size: 28px;
   padding: 10px;
   width: 150px;
@@ -398,7 +401,7 @@ margin-bottom: 4rem;
 }
 
 #contact button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -415,11 +418,11 @@ margin-bottom: 4rem;
   right: 0;
 }
 
- #div-phone{
-   font-size: 20px;
-   text-align: center;
-   padding: 2rem ;
- }
+#div-phone {
+  font-size: 20px;
+  text-align: center;
+  padding: 2rem;
+}
 
 /* FOOTER */
 
