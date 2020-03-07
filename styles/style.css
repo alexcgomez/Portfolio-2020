@@ -463,18 +463,24 @@ footer {
 
 /* Projects*/
 
+#div-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
 #project1 {
   display: flex;
   padding: 2rem;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   margin: 2rem 0rem;
   background: var(--mainBackColor);
   width: auto;
 }
 
 #project1 img {
-  width: 20rem;
+  width: 30rem;
   border-radius: 20px;
   border: var(--mainColor) 10px solid;
 }
@@ -488,6 +494,15 @@ footer {
   padding: 2rem;
 }
 
+#project-description p a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+}
+
+#project-description p a:hover {
+  color: var(--mainColor);
+}
 #project-description h2 {
   color: var(--mainColor);
   margin: 1rem;
