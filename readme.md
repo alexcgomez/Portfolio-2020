@@ -16,7 +16,7 @@ and styles.
 
 ## Soon 🚀
 
-This is version 0.1, in future versions it is intended to add functionality in Javascript and even use some framework.
+This is version 0.1, in futur e versions it is intended to add functionality in Javascript and even use some framework.
 
 ## Autores ✒️
 
